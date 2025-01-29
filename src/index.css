@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.light {
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Darker gray for text in light mode */
+}
+
+body.light .text-gray-300 {
+  color: #333; /* Darker gray for text in light mode */
+}
+
+body.light .text-gray-400 {
+  color: #555; /* Darker gray for text in light mode */
+}
+
+body.light .text-gray-600 {
+  color: #666; /* Darker gray for text in light mode */
+}
+
+body.light .text-gray-700 {
+  color: #777; /* Darker gray for text in light mode */
+}
+
+body.light .text-gray-900 {
+  color: #999; /* Darker gray for text in light mode */
+}
+
+body.light .bg-neutral-800 {
+  background-color: #ddd; /* Light gray for background in light mode */
+}
+
+body.light .bg-neutral-900 {
+  background-color: #eee; /* Light gray for background in light mode */
+}
+
+body.light .bg-neutral-700 {
+  background-color: #ccc; /* Light gray for background in light mode */
+}
+
+body.light .bg-black {
+  background-color: #f0f0f0; /* Light background color */
+}
+
+body.light .text-red-500 {
+  color: #c00; /* Darker red for text in light mode */
+}
+
+body.light .text-red-600 {
+  color: #c00; /* Darker red for text in light mode */
+}
+
+body.light .bg-red-600 {
+  background-color: #fdd; /* Light red for background in light mode */
+}
+
+body.light .bg-red-700 {
+  background-color: #fed; /* Light red for background in light mode */
+}
+
+body.light .text-white {
+  color: #333; /* Darker gray for text in light mode */
+}
+
+body.light .bg-white {
+  background-color: #fff; /* White background in light mode */
+}
+
+body.light .text-yellow-500 {
+  color: #aa0; /* Darker yellow for text in light mode */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+  .md\:flex {
+    display: flex;
+  }
+  .md\:col-span-1 {
+    grid-column: 1 / 2;
+  }
+  .md\:col-span-3 {
+    grid-column: 1 / 2;
+  }
+}
