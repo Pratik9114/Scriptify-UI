@@ -195,5 +195,5 @@ def login():
     except Exception as e:
         return jsonify({'error': str(e)}), 401
 
-if _name_ == '__main__':
+if __name__ == '__main__':
     app.run(debug=True)
